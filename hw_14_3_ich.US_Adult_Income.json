@@ -1,0 +1,860 @@
+[{
+  "_id": {
+    "$oid": "656e1a035afc911a8a7ad6b9"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 51744,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Not-in-family",
+  "race": " Black",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 2206,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a035afc911a8a7ad9eb"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 137018,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a035afc911a8a7add6a"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 221832,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Exec-managerial",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 45,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7adeda"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 52386,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Not-in-family",
+  "race": " Asian-Pac-Islander",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 35,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7ae126"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 171956,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Separated",
+  "occupation": " Adm-clerical",
+  "relationship": " Own-child",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " Puerto-Rico",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7ae5c1"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 313986,
+  "education": " 11th",
+  "education_num": 7,
+  "marital_status": " Never-married",
+  "occupation": " Handlers-cleaners",
+  "relationship": " Own-child",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7ae5e8"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 256514,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Widowed",
+  "occupation": " ?",
+  "relationship": " Other-relative",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 991,
+  "capital_loss": 0,
+  "hours_per_week": 10,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7ae9cb"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 52386,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Not-in-family",
+  "race": " Asian-Pac-Islander",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 35,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7aea73"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 141758,
+  "education": " 9th",
+  "education_num": 5,
+  "marital_status": " Never-married",
+  "occupation": " Adm-clerical",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7aead5"
+  },
+  "age": 90,
+  "workclass": " Local-gov",
+  "total": 227796,
+  "education": " Masters",
+  "education_num": 14,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Exec-managerial",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 20051,
+  "capital_loss": 0,
+  "hours_per_week": 60,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7aeaf9"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 51744,
+  "education": " Masters",
+  "education_num": 14,
+  "marital_status": " Never-married",
+  "occupation": " Exec-managerial",
+  "relationship": " Not-in-family",
+  "race": " Black",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 50,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7aee33"
+  },
+  "age": 90,
+  "workclass": " Self-emp-not-inc",
+  "total": 155981,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Prof-specialty",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 10566,
+  "capital_loss": 0,
+  "hours_per_week": 50,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a045afc911a8a7aefbb"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 313986,
+  "education": " 11th",
+  "education_num": 7,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Craft-repair",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7af841"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 87372,
+  "education": " Prof-school",
+  "education_num": 15,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Prof-specialty",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 20051,
+  "capital_loss": 0,
+  "hours_per_week": 72,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7af8de"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 77053,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Widowed",
+  "occupation": " ?",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 4356,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7af8e8"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 46786,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Sales",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 9386,
+  "capital_loss": 0,
+  "hours_per_week": 15,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7afdbd"
+  },
+  "age": 90,
+  "workclass": " Self-emp-not-inc",
+  "total": 282095,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Farming-fishing",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7aff0c"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 175491,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Craft-repair",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 9386,
+  "capital_loss": 0,
+  "hours_per_week": 50,
+  "native_country": " Ecuador",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7b02d3"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 87285,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Own-child",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 24,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7b03ae"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 39824,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Widowed",
+  "occupation": " ?",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 401,
+  "capital_loss": 0,
+  "hours_per_week": 4,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a055afc911a8a7b04b7"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 40388,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Never-married",
+  "occupation": " Exec-managerial",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 55,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a065afc911a8a7b067e"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 225063,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Never-married",
+  "occupation": " ?",
+  "relationship": " Own-child",
+  "race": " Asian-Pac-Islander",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 10,
+  "native_country": " South",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a065afc911a8a7b088a"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 250832,
+  "education": " 10th",
+  "education_num": 6,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Exec-managerial",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a065afc911a8a7b0d2a"
+  },
+  "age": 90,
+  "workclass": " Local-gov",
+  "total": 187749,
+  "education": " Assoc-acdm",
+  "education_num": 12,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Adm-clerical",
+  "relationship": " Husband",
+  "race": " Asian-Pac-Islander",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 20,
+  "native_country": " Philippines",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a065afc911a8a7b11d7"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 90523,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Widowed",
+  "occupation": " Transport-moving",
+  "relationship": " Unmarried",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 99,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a065afc911a8a7b13ef"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 88991,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Exec-managerial",
+  "relationship": " Wife",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " England",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b1d40"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 311184,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Sales",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 20,
+  "native_country": " ?",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b1dc8"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 313749,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Never-married",
+  "occupation": " Prof-specialty",
+  "relationship": " Own-child",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 10,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b1f00"
+  },
+  "age": 90,
+  "workclass": " Local-gov",
+  "total": 153602,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Other-service",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 6767,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b1f6b"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 115306,
+  "education": " Masters",
+  "education_num": 14,
+  "marital_status": " Never-married",
+  "occupation": " Exec-managerial",
+  "relationship": " Own-child",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b20e7"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 139660,
+  "education": " Some-college",
+  "education_num": 10,
+  "marital_status": " Divorced",
+  "occupation": " Sales",
+  "relationship": " Unmarried",
+  "race": " Black",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 37,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b21fc"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 84553,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Machine-op-inspct",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b22fe"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 226968,
+  "education": " 7th-8th",
+  "education_num": 4,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Machine-op-inspct",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a075afc911a8a7b265d"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 206667,
+  "education": " Masters",
+  "education_num": 14,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Prof-specialty",
+  "relationship": " Wife",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a085afc911a8a7b2ca7"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 52386,
+  "education": " Bachelors",
+  "education_num": 13,
+  "marital_status": " Never-married",
+  "occupation": " Prof-specialty",
+  "relationship": " Not-in-family",
+  "race": " Asian-Pac-Islander",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a085afc911a8a7b33c6"
+  },
+  "age": 90,
+  "workclass": " Self-emp-not-inc",
+  "total": 82628,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Never-married",
+  "occupation": " Exec-managerial",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 2964,
+  "capital_loss": 0,
+  "hours_per_week": 12,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a085afc911a8a7b3489"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 166343,
+  "education": " 1st-4th",
+  "education_num": 2,
+  "marital_status": " Widowed",
+  "occupation": " ?",
+  "relationship": " Not-in-family",
+  "race": " Black",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a095afc911a8a7b38b2"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 175444,
+  "education": " 7th-8th",
+  "education_num": 4,
+  "marital_status": " Separated",
+  "occupation": " ?",
+  "relationship": " Not-in-family",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 15,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a095afc911a8a7b450a"
+  },
+  "age": 90,
+  "workclass": " Federal-gov",
+  "total": 195433,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Craft-repair",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 30,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a0a5afc911a8a7b4f11"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 47929,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Machine-op-inspct",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a0a5afc911a8a7b51ab"
+  },
+  "age": 90,
+  "workclass": " ?",
+  "total": 313986,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " ?",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " >50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a0a5afc911a8a7b53f0"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 313749,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Widowed",
+  "occupation": " Adm-clerical",
+  "relationship": " Unmarried",
+  "race": " White",
+  "gender": " Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 25,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+},
+{
+  "_id": {
+    "$oid": "656e1a0a5afc911a8a7b544a"
+  },
+  "age": 90,
+  "workclass": " Local-gov",
+  "total": 214594,
+  "education": " 7th-8th",
+  "education_num": 4,
+  "marital_status": " Married-civ-spouse",
+  "occupation": " Protective-serv",
+  "relationship": " Husband",
+  "race": " White",
+  "gender": " Male",
+  "capital_gain": 2653,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+}]

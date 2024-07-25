@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "656e1a035afc911a8a7ad6b9"
+  },
+  "age": 90,
+  "workclass": " Private",
+  "total": 51744,
+  "education": " HS-grad",
+  "education_num": 9,
+  "marital_status": " Never-married",
+  "occupation": " Other-service",
+  "relationship": " Not-in-family",
+  "race": " Black",
+  "gender": " Male",
+  "capital_gain": 0,
+  "capital_loss": 2206,
+  "hours_per_week": 40,
+  "native_country": " United-States",
+  "income_bracket": " <=50K"
+}]
