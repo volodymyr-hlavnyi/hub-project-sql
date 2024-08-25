@@ -78,3 +78,5 @@ price as old_price
 from airport.tickets
 ;
 
+INSERT TO 
+

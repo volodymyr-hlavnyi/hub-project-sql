@@ -1,0 +1,17 @@
+# 1
+db.bookings.findOne(
+  { vin: "WME4530421Y135045" },
+  { final_address: 1, _id: 0 },
+{ final_date: -1 } );
+
+# 2
+db.bookings.find(
+    { "vin": "WME4530421Y135045" }
+).sort({ "final_date": -1 }).projection({ "final_address": 1, "_id": 0 }).limit(1)
+
+{
+  final_address: 'Piazza Guido Cavalcanti, 8, 10132 Torino TO'
+}
+
+#3
+
