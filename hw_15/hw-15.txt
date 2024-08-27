@@ -14,4 +14,17 @@ db.bookings.find(
 }
 
 #3
+db.bookings.countDocuments({"final_fuel":0})
+30
+
+#4
+db.bookings.find(
+    {},
+    { "license_plate": 1, "vin": 1 }
+).sort({ "distance": -1 }).limit(1)
+
+#5
+db.imdb.find(
+    { "cast": "Brad Pitt" }
+).sort({ "imdb.rating": -1 }).limit(1)
 
