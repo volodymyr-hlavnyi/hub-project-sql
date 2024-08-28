@@ -1,0 +1,93 @@
+# 1
+db.US_Adult_Income.aggregate([
+  {
+    $group: {
+      _id: null,
+      avgAge: { $avg: "$age" }
+    }
+  }
+])
+
+# 2
+db.orders_ChatGPT.insertMany([
+  {
+    id: 1,
+    customer: 'Olga',
+    product: 'Apple',
+    amount: 15.55,
+    city: 'Berlin'
+  },
+  {
+    id: 2,
+    customer: 'Anna',
+    product: 'Apple',
+    amount: 10.05,
+    city: 'Madrid'
+  },
+  {
+    id: 3,
+    customer: 'Olga',
+    product: 'Kiwi',
+    amount: 9.6,
+    city: 'Berlin'
+  },
+  {
+    id: 4,
+    customer: 'Anton',
+    product: 'Apple',
+    amount: 20,
+    city: 'Roma'
+  },
+  {
+    id: 5,
+    customer: 'Olga',
+    product: 'Banana',
+    amount: 8,
+    city: 'Madrid'
+  },
+  {
+    id: 6,
+    customer: 'Petr',
+    product: 'Orange',
+    amount: 18.3,
+    city: 'Paris'
+  }
+])
+
+# 3
+db.orders_310524_Volodymyr.countDocuments({})
+
+#4
+db.orders_310524_Volodymyr.countDocuments({ product: 'Apple' })
+
+#5
+db.orders_310524_Volodymyr.find({}, { id: 1, amount: 1 })
+  .sort({ amount: -1 })
+  .limit(3)
+
+#6
+db.orders_310524_Volodymyr.countDocuments({ city: 'Berlin' })
+
+#7
+db.orders_310524_Volodymyr.countDocuments({
+  product: 'Apple',
+  city: { $in: ['Berlin', 'Madrid'] }
+})
+
+#8
+db.orders_310524_Volodymyr.aggregate([
+  {
+    $group: {
+      _id: "$customer",
+      totalSpent: { $sum: "$amount" }
+    }
+  }
+])
+
+#9
+db.orders_310524_Volodymyr.aggregate([
+  { $match: { customer: 'Olga' } },
+  { $group: { _id: '$city' } }
+])
+
+
