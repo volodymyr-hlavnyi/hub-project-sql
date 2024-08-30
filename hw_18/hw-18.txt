@@ -1,0 +1,86 @@
+#1
+[
+  {
+    $match: {
+      "address.location": {
+        $geoWithin: {
+          $geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [
+                  -153.35301554229227,
+                  19.103648251663646
+                ],
+                [
+                  -155.6804112577194,
+                  17.476432197195518
+                ],
+                [
+                  -157.17345756572925,
+                  18.562947442888312
+                ],
+                [
+                  -160.4669420686922,
+                  21.00247105435674
+                ],
+                [
+                  -160.7304208289292,
+                  23.200960808078566
+                ],
+                [
+                  -157.83215446632187,
+                  23.684774166883756
+                ],
+                [
+                  -153.35301554229227,
+                  19.103648251663646
+                ]
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      averagePrice: {
+        $avg: "$price"
+      }
+    }
+  }
+]
+
+
+#2
+use sample_mflix
+db.getCollection("movies").aggregate([
+  {
+    $match: {
+      "imdb.rating": { $gt: 8 },
+      year: { $gte: 2015, $lte: 2023 }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      count: { $sum: 1 },
+      highestRatedMovie: { $max: "$imdb.rating" }
+    }
+  },
+  {
+    $sort: { "imdb.rating": -1 }
+  },
+  {
+    $limit: 1
+  },
+  {
+    $project: {
+      count: 1,
+      highestRatedMovie: 1,
+      title: 1
+    }
+  }
+]);
