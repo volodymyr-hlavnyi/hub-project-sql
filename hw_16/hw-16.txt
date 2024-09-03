@@ -9,7 +9,7 @@ db.US_Adult_Income.aggregate([
 ])
 
 # 2
-db.orders_ChatGPT.insertMany([
+db.orders__310524_Volodymyr.insertMany([
   {
     id: 1,
     customer: 'Olga',
