@@ -16,3 +16,42 @@ db.Spotify_Youtube.find().sort({ Stream: -1 }).limit(1).toArray()[0];
 
 # 5
 
+[
+  {
+    $sort:
+ 
+      {
+        Views: -1
+      }
+  },
+  {
+    $limit:
+      
+      20
+  },
+  {
+    $project:
+      
+      {
+        Artist: 1,
+        Track: 1,
+        Views: 1,
+        Url_youtube: 1,
+        Title: 1,
+        Channel: 1,
+        Likes: 1,
+        Comments: 1,
+        Description: 1,
+        _id: 0
+      }
+  },
+  {
+    $out:
+      
+      {
+        db: "ich_edit",
+        coll: "top20Spotify_310524ptm_Volodymyr"
+    
+      }
+  }
+]
