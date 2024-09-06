@@ -1,14 +1,29 @@
-# 1
+# 6
+db.restaurants.find({
+  borough: 'Staten Island',
+  name: { $regex: /pizza/i }
+});
 
 
-# 2
-
-
-# 3
-
-
-# 4
-
-
-# 5
+# 7
+db.restaurants.aggregate([
+  {
+    $unwind: "$grades"
+  },
+  {
+    $group: {
+      _id: "$name",
+      avgScore: { $avg: "$grades.score" }
+    }
+  },
+  {
+    $sort: { avgScore: -1 }
+  },
+  { 
+    $limit: 5
+  },
+  {
+    $project: { _id: 0, name: "$_id", avgScore: 1 }
+  }
+]);
 
